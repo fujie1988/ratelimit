@@ -1,0 +1,35 @@
+[
+  {
+    "className": "com.xxx.ratelimit.test.DemoService",
+    "methods": [
+      {
+        "methodName": "testJson",
+        "qps": 1800002,
+        "timeout": 10000,
+        "ticketType": 0
+      },
+      {
+        "methodName": "default",
+        "qps": 1800002,
+        "timeout": 10000,
+        "ticketType": 0
+      }
+    ]
+  },
+  {
+    "className": "defClass",
+    "methods": [
+      {
+        "methodName": "def",
+        "qps": 16,
+        "timeout": 120,
+        "warmupPeriod": 333
+      },
+      {
+        "methodName": "ddd",
+        "qps": 33,
+        "timeout": 130
+      }
+    ]
+  }
+]
